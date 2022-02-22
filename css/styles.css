@@ -14,7 +14,7 @@ body {
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-    background-color: #e0f0ff;
+    background-color: #669B90;
 }
 
 .resume-main {
@@ -22,9 +22,44 @@ body {
 }
 
 .resume-aside {
-	background-color: #fff0e0;
+	background-color: #F3EADA;
 }
 
+.heading {
+	font-family: 'Playfair Display', serif;
+	text-align: start;
+	border-bottom: 1px solid black;
+	width: 400px;
+}
+
+.subhead {
+	font-family: Georgia, serif;
+}
+
+.bg {
+	background-color: #DAE6F2;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+
+.border-lang {
+	width: 50%;
+	border: 2px solid #748CA6;
+	position: relative;
+}
+.en {
+	background-color: #DAE6F2;
+	height: 100%;
+	width: 75%;
+	position: absolute;
+}
+.fr{
+	background-color: #DAE6F2;
+	height: 100%;
+	width: 50%;
+	position: absolute;
+}
 /* Styles for lists in the document */
 
 .biography-details li::before, .skill-list li::before {
@@ -36,7 +71,7 @@ body {
 }
 
 .biography-details li::before {
-	color: #EE7623;
+	color: #202030;
 }
 
 .biography-details li, .skill-list li {
@@ -48,4 +83,8 @@ body {
 .contact-icon {
 	height: 1em;
 	flex-basis: 1.4em;
+}
+
+.material-icons.md-48{
+	font-size: 48px;
 }
